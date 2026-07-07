@@ -1,0 +1,5 @@
+自己动手，丰衣足食。
+
+WHY NOT READ THE CODE YOURSELF?
+
+[LICENSE](./LICENSE)
