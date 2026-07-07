@@ -27,9 +27,9 @@
     // =====================================================================
     const CONFIG = {
         SCAN_INTERVAL: 5000,          // 扫描间隔 (ms)
-        REQUEST_DELAY: 1500,          // API 请求间最小间隔 (ms)
+        REQUEST_DELAY: 2000,          // API 请求间最小间隔 (ms)
         RATE_LIMIT_DELAY: 10000,      // 限频后退避时间 (ms)
-        CACHE_EXPIRE: 24 * 60 * 60 * 1000, // 检测结果缓存 (24小时)
+        CACHE_EXPIRE: 30 * 24 * 60 * 60 * 1000, // 检测结果缓存 (最大30天)
     };
 
     const RULES = {
